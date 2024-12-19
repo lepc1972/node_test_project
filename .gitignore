@@ -1,0 +1,26 @@
+# Configuración del entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de configuración
+.config/
+.pnp.*
+
+# Dependencias
+node_modules/
+npm-debug.log*
+
+# Archivos compilados
+build/
+dist/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de desarrollo
+.electron-builder.yaml
+
