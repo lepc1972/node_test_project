@@ -19,9 +19,20 @@ pipeline {
 
         stage('Testing') {
             steps {
-                echo 'Testing...'
-                // Comando para ejecutar pruebas de ejemplo
-                sh 'echo "Pruebas ejecutadas exitosamente"'
+
+                // Verificar si existe un archivo específico
+        sh '''
+            if [ -f README.md ]; then
+                echo "Archivo README.md encontrado."
+            else
+                echo "Error: Archivo README.md no encontrado." >&2
+                exit 1
+            fi
+        '''
+
+        
+                
+                
             }
         }
 
