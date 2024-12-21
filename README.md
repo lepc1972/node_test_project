@@ -1,4 +1,4 @@
-# Node Test Project ok ok
+# Node Test Project
 
 This project is a simple Node.js application designed for testing purposes. It serves as an example of a 
 basic Node.js setup with Express.js for routing and handling HTTP requests.
